@@ -60,11 +60,11 @@
 
         raise {
             bindings = <
-&trans  &trans  &trans  &trans  &trans  &trans                                 &mkp LCLK       &mkp RCLK       &trans        &trans           &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans                                 &mmv MOVE_LEFT  &mmv MOVE_DOWN  &mmv MOVE_UP  &mmv MOVE_RIGHT  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans                                 &kp LEFT        &kp DOWN        &kp UP        &kp RIGHT_ARROW  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans  &kp K_MUTE    &rgb_ug RGB_EFF  &trans          &trans          &trans        &trans           &trans  &trans
-                &trans  &trans  &trans  &trans  &kp SPACE     &kp ENTER        &trans          &trans          &trans        &trans
+&trans  &trans           &trans  &trans  &trans  &trans                                 &mkp LCLK       &mkp RCLK       &trans        &trans           &trans  &trans
+&trans  &rgb_ug RGB_TOG  &trans  &trans  &trans  &trans                                 &mmv MOVE_LEFT  &mmv MOVE_DOWN  &mmv MOVE_UP  &mmv MOVE_RIGHT  &trans  &trans
+&trans  &trans           &trans  &trans  &trans  &trans                                 &kp LEFT        &kp DOWN        &kp UP        &kp RIGHT_ARROW  &trans  &trans
+&trans  &trans           &trans  &trans  &trans  &trans  &kp K_MUTE    &rgb_ug RGB_EFF  &trans          &trans          &trans        &trans           &trans  &trans
+                         &trans  &trans  &trans  &trans  &kp SPACE     &kp ENTER        &trans          &trans          &trans        &trans
             >;
 
             sensor-bindings =
