@@ -53,9 +53,9 @@
                            &kp LEFT_GUI  &kp LALT     &trans    &trans     &kp SPACE     &kp ENTER  &trans     &trans    &kp RALT         &kp RIGHT_GUI
             >;
 
-            sensor-bindings =
-                <&inc_dec_kp C_VOL_DN C_VOL_UP>,
-                <&inc_dec_kp PG_UP PG_DN>;
+        sensor-bindings =
+             <&inc_dec_kp C_VOL_DN C_VOL_UP>,
+             <&inc_dec_kp PG_UP PG_DN>;
         };
 
         raise {
